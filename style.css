@@ -60,7 +60,15 @@ img {
 .header_container {
     display: flex;
     justify-content: space-between;
+    padding: 28px;
+    align-items: baseline;
 }
+
+/*.site__logo {
+    display: flex;
+    align-items: baseline;
+}
+*/
 
 .logo {
     font-family: var(--main-font);
@@ -75,7 +83,7 @@ img {
 
 }
 
-.nav__list {
+.nav__ul {
     display: flex;
     width: 490px;
     justify-content: space-between;
@@ -88,9 +96,8 @@ img {
     height: 2px;
     background-color: rgb(243, 129, 129);
     margin-top: 10px;
-}    
+}
 
-  
 
 
 
